@@ -2,6 +2,7 @@ import React from "react";
 import "./header.css";
 import FavoriteBorderIcon from "@material-ui/icons/FavoriteBorder";
 import LocalMallOutlinedIcon from "@material-ui/icons/LocalMallOutlined";
+import PhoneAndroidOutlinedIcon from "@material-ui/icons/PhoneAndroidOutlined";
 
 function Header() {
   return (
@@ -10,7 +11,10 @@ function Header() {
         <div className='header__small1'>
           <p>Offers</p>
           <p>Fanbook</p>
-          <p>Download App</p>
+          <p>
+            <PhoneAndroidOutlinedIcon />
+            Download App
+          </p>
           <p>TriBe Membership</p>
         </div>
         <div className='header__small2'>

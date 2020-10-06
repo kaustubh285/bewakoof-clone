@@ -1,0 +1,19 @@
+.AdCard {
+  padding: 0px;
+  width: 37vw !important;
+  margin-bottom: 20px;
+}
+
+.AdCard_poster {
+  object-fit: contain;
+  max-height: 555px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 500px) {
+  .AdCard {
+    padding: 0px;
+    margin-bottom: 10px;
+    width: 40vw !important;
+  }
+}
