@@ -58,9 +58,15 @@ function Home() {
       />
       <img
         src='https://images.bewakoof.com/uploads/grid/app/announcement-desktop-strip--1--1594387974.jpg'
-        className='Ad_horizontal'
+        className='Ad_horizontal doctor_desktop'
         alt='adv'
       />
+      <img
+        src='https://images.bewakoof.com/uploads/grid/app/announcement-msite-strip--1--1594387975.jpg'
+        className='Ad_horizontal doctor_mobile'
+        alt='adv'
+      />
+
       {/* Essentials */}
       {/* Accessories */}
     </div>

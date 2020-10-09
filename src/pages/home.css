@@ -15,10 +15,12 @@
 }
 
 .home__topWear {
+  justify-content: space-evenly;
   display: flex;
 }
 
 .home__topWearItem {
+  max-width: 180px;
   padding: 10px;
 }
 
@@ -32,9 +34,21 @@
     object-fit: contain;
     max-height: 200px;
   }
+  .doctor_mobile {
+    display: none;
+  }
+  .doctor_desktop {
+    display: block;
+  }
 }
 
 @media only screen and (max-width: 500px) {
+  .doctor_mobile {
+    display: block;
+  }
+  .doctor_desktop {
+    display: none;
+  }
   .home__topWear {
     display: flex;
     flex-wrap: wrap;

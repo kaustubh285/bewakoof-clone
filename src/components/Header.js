@@ -22,8 +22,8 @@ function Header() {
           <p>Track Order</p>
         </div>
       </div>
-      <div className='header__navbar'>
-        <nav className='navbar navbar-expand-lg navbar-light bg-white'>
+      <div className='header__navbar '>
+        <nav className='navbar navbar-expand-lg navbar-light bg-white '>
           <a className='navbar-brand' href='/'>
             <img
               className='navbar-logo'
